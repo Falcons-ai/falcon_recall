@@ -20,7 +20,7 @@
 
 
 
-# Falcon Recall w/ Microsoft PHI3
+# Falcon Recall w/ Microsoft PHI3 Vision
 
 ## Overview
 
@@ -38,7 +38,7 @@ This project includes a function called `run_recall` that captures the current s
 
 - Python 3.x
 - Pillow
-- PHI3 Vision model (assumed to be a custom or third-party module)
+- PHI3 Vision model available here: https://huggingface.co/microsoft/Phi-3-vision-128k-instruct
 
 ## How It Works
 
