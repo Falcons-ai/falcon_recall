@@ -50,6 +50,7 @@ parso
 pexpect 
 pickleshare 
 pillow==10.3.0
+piexif
 platformdirs 
 prompt-toolkit 
 psutil 
