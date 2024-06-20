@@ -33,6 +33,7 @@ This project includes a function called `run_recall` that captures the current s
 3. **Image Saving**: Saves the screenshot with a timestamped filename to avoid overwriting.
 4. **Image Description**: If the images are different, it generates a description of the new image using the PHI3 Vision model and logs the description.
 5. **Duplicate Handling**: Deletes the new screenshot if it is identical to the previous one to prevent duplicate storage.
+6. **Image Meta Data***: Added the description to the image in the form of metadata, to view right click on the image, view the image properties to see the image description as meta data.
 
 ## Dependencies
 
@@ -51,7 +52,7 @@ This project includes a function called `run_recall` that captures the current s
         - Generate an image description using the PHI3 Vision model.
         - Save the image path and description to a log file.
         - Close the screenshot to release resources.
-        - Print "Run normal" to indicate normal operation.
+        - Write the image description as metadata to the image itself.
     - If the images are the same:
         - Delete the new screenshot to avoid storing duplicates.
 6. **Return Filename**: The function returns the filename of the saved screenshot.
